@@ -1,11 +1,20 @@
-<div class="languages"><h2> Language: </h2></div>
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title>Phrase Dictionary</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+ </head>
+<body id="lang">
+
 <form method="POST" action="/eng-result">
+  <div class="languages"><h2> Language: </h2>
 <select name="language">
   <option value = "english">English</option>
   <option value = "spanish">Spanish</option>
   <option value = "french (formal)">French: Formal</option>
   <option value = "french (informal)">French: Informal</option>
-</select>
+  </select> </div><br><br><br><br>
   <h2> Phrase: </h2>
   <select name="phrases">
   <option value = "hello">Hello</option>
@@ -14,8 +23,9 @@
    <option value = "Good morning!">Good Morning!</option>
    <option value = "Good afternoon!">Good Afternoon!</option>
    <option value = "Good night!">Good Night!</option>
-</select>
+</select><br><br>
   <input type="submit" value="Submit">
-</form>
-  <a href='/'> Back </a>
-
+</form> <br>
+  <div id="back"><a href='/'> Back </a></div>
+</body>
+</html>

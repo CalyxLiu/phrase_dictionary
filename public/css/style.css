@@ -1,0 +1,43 @@
+body{
+  background: #efcffb;
+  /*background:url("images/open_book_blank_T.png");
+  background-size: 400px 500px;
+  background-repeat: no-repeat;*/
+}
+
+h1{
+  font-family: tahoma;
+  margin: 50px;
+}
+
+h4{
+  color: #6b1b87;
+  font-size: 40px;
+  font-family: georgia;
+}
+
+
+#front{
+  margin-left: 30px;
+  margin-right: 30px;
+  display:inline;
+}
+
+#lang{
+  margin: 50px;
+}
+
+languages{
+  float:left;
+}
+
+#back{
+  float:right;
+  margin: 15px;
+}
+
+#result{
+  margin-top: 80px;
+  font-size: 30px;
+  font-family: georgia;
+}
