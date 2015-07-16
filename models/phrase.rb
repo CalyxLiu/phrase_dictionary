@@ -6,6 +6,7 @@
     
     #@start_lang = start
 $phrase = ""
+$lang2 = ""
     
     $en_lang_array = ["english", "spanish", "french (formal)", "french (informal)"]
     $sp_lang_array = ["inglés", "español", "francés (formal)", "francés (informal)"]
@@ -44,6 +45,8 @@ $answer = ""
   end
 
   def second_lang(choice2)
+    $lang2 = choice2
+    puts $lang2
     if choice2 == $lang_array[0]
       $phrase_answers = $en_phr_array
     elsif choice2 == $lang_array[1]
@@ -58,6 +61,8 @@ $answer = ""
   
   
   def phrase_choice(choice3)
+    $phrase = choice3
+    puts choice3
     if choice3 == $phrase_choices[0]
       $answer = $phrase_answers[0]
     elsif choice3 == $phrase_choices[1]

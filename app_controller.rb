@@ -21,6 +21,8 @@ class PhraseApp < Sinatra::Base
   end
  
   post '/eng-result' do
+    @lang2 = params[:language]
+    @phrase = params[:phrases]
     primary_lang("English")
     second_lang(params[:language])
     @answer = phrase_choice(params[:phrases])
@@ -28,6 +30,8 @@ class PhraseApp < Sinatra::Base
   end
   
    post '/fra-result' do
+    @lang2 = params[:language]
+    @phrase = params[:phrases]
     primary_lang("Français")
     second_lang(params[:language])
     @answer = phrase_choice(params[:phrases])
@@ -35,6 +39,8 @@ class PhraseApp < Sinatra::Base
   end
   
   post '/esp-result' do
+    @lang2 = params[:language]
+    @phrase = params[:phrases]
     primary_lang("Español")
     second_lang(params[:language])
     @answer = phrase_choice(params[:phrases])
