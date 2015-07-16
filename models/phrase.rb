@@ -5,6 +5,7 @@
   #def initialize(start=("English"))
     
     #@start_lang = start
+$phrase = ""
     
     $en_lang_array = ["english", "spanish", "french (formal)", "french (informal)"]
     $sp_lang_array = ["inglés", "español", "francés (formal)", "francés (informal)"]
