@@ -12,10 +12,10 @@ $lang2 = ""
     $sp_lang_array = ["inglés", "español", "francés (formal)", "francés (informal)"]
     $fr_lang_array = ["anglais", "espagnol", "français (poli)", "français (impoli)"]
 
-    $en_phr_array = ["hello", "goodbye", "How are you?", "Good morning!", "Good afternoon!", "Good night!"]
-    $sp_phr_array = ["hola", "adiós", "¿Cómo estás?", "¡Buenos días!", "¡Buenas tardes!", "¡Buenas noches!"]
-    $fr_phrF_array = ["bonjour", "au revoir", "Comment allez-vous?", "Bonjour!", "Bon aprés-midi!", "Bonne nuit!"]
-    $fr_phrI_array = ["salut", "au revoir", "Comment vas-tu?", "Bonjour!", "Bonjour!", "Bonne nuit!"]
+    $en_phr_array = ["hello", "goodbye", "How are you?", "Good morning!", "Good afternoon!", "Good night!", "Thank you!", "please", "You're welcome!"]
+    $sp_phr_array = ["hola", "adiós", "¿Cómo estás?", "¡Buenos días!", "¡Buenas tardes!", "¡Buenas noches!", "¡Gracias!", "por favor", "de nada"]
+    $fr_phrF_array = ["bonjour", "au revoir", "Comment allez-vous?", "Bonjour!", "Bon aprés-midi!", "Bonne nuit!", "Merci!", "s'il vous plaît", "Je vous en prie"]
+    $fr_phrI_array = ["salut", "au revoir", "Comment vas-tu?", "Bonjour!", "Bonjour!", "Bonne nuit!", "Merci!", "s'il te plaît", "Je t'en prie"]
 
 $lang_array = []
 $phrase_choices = []
@@ -75,6 +75,12 @@ $answer = ""
       $answer = $phrase_answers[4]
     elsif choice3 == $phrase_choices[5]
       $answer = $phrase_answers[5]
+    elsif choice3 == $phrase_choices[6]
+      $answer = $phrase_answers[6]
+    elsif choice3 == $phrase_choices[7]
+      $answer = $phrase_answers[7]
+    elsif choice3 == $phrase_choices[8]
+      $answer = $phrase_answers[8]
     end
     return $answer
   end
