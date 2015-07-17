@@ -11,7 +11,7 @@ $lang2 = ""
 $en_lang_array = ["english", "spanish", "french (formal)", "french (informal)", "german"]
 $sp_lang_array = ["inglés", "español", "francés (formal)", "francés (informal)", "alemán"]
 $fr_lang_array = ["anglais", "espagnol", "français (poli)", "français (impoli)", "allemand"]
-$ger_lang_array = ["englisch", "spanisch", "französisch (höflich)", "franzöisch (unhöflich)", "deutsch"]
+$ger_lang_array = ["englisch", "spanisch", "französisch (höflich)", "französisch (unhöflich)", "deutsch"]
 
     $en_phr_array = ["hello", "goodbye", "How are you?", "Good morning!", "Good afternoon!", "Good night!", "Thank you!", "please", "You're welcome!", "Excuse me", "Sorry"]
     $sp_phr_array = ["hola", "adiós", "¿Cómo estás?", "¡Buenos días!", "¡Buenas tardes!", "¡Buenas noches!", "¡Gracias!", "por favor", "de nada", "Compermiso", "Perdón"]
