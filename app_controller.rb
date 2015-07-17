@@ -19,6 +19,10 @@ class PhraseApp < Sinatra::Base
   get '/french' do
     erb :french
   end
+  
+  get '/german' do
+    erb :german
+  end
  
   post '/eng-result' do
     @lang2 = params[:language]
@@ -45,6 +49,15 @@ class PhraseApp < Sinatra::Base
     second_lang(params[:language])
     @answer = phrase_choice(params[:phrases])
     erb :esp_result
+  end
+  
+  post '/ger-result' do
+    @lang2 = params[:language]
+    @phrase = params[:phrases]
+    primary_lang("Deutsch")
+    second_lang(params[:language])
+    @answer = phrase_choice(params[:phrases])
+    erb :ger_result
   end
   
   #post '/result' do
