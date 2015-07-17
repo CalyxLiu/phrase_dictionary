@@ -23,6 +23,11 @@ class PhraseApp < Sinatra::Base
   get '/german' do
     erb :german
   end
+  
+  get '/error-eng' do
+    erb :error_eng
+  end
+
  
   post '/eng-result' do
     @lang2 = params[:language]

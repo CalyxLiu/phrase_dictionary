@@ -10,6 +10,10 @@ h1{
   margin: 50px;
 }
 
+h2{
+  text-align: center;
+}
+
 h4{
   color: #6b1b87;
   font-size: 40px;
@@ -27,8 +31,8 @@ h4{
   margin: 50px;
 }
 
-languages{
-  float:left;
+.languages{
+  
 }
 
 #back{
@@ -42,6 +46,13 @@ languages{
   font-family: georgia;
 }
 
-#main{
-  background: url("../images/blank-book.png") height: 800px width: 600px;
+<<<<<<< HEAD
+=======
+.box{
+  border: 8px;
+  border-style: solid;
+  border-color: #6b1b87;
+  padding: 40px;
+  margin: 20px;
+>>>>>>> 8bff1ee335ad1fea7788fc4573db68f0ceaaff03
 }
