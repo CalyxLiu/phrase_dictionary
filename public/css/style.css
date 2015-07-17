@@ -41,3 +41,7 @@ languages{
   font-size: 30px;
   font-family: georgia;
 }
+
+#main{
+  background: url("../images/blank-book.png") height: 800px width: 600px;
+}
